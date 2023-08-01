@@ -1,0 +1,27 @@
+name: ChestAlerts
+version: '1.0'
+main: com.github.kaludii.chestalerts.ChestAlerts
+api-version: '1.20'
+description: Send an alert to Discord and the console when a player opens a chest.
+authors: [Kaludi]
+website: https://github.com/Kaludii
+load: STARTUP
+commands:
+  ChestAlerts:
+    description: Main command for the ChestAlerts plugin.
+    usage: /<command>
+    permission: chestalerts.use
+    permission-message: '&d&lYou do not have permission to use this command.'
+permissions:
+  chestalerts.*:
+    description: Gives access to all ChestAlerts commands.
+    default: op
+  chestalerts.use:
+    description: Allows use of the ChestAlerts command.
+    default: op
+  chestalerts.reload:
+    description: Allows use of the /ChestAlerts reload command.
+    default: op
+  chestalerts.toggle:
+    description: Allows use of the /ChestAlerts toggle command.
+    default: op

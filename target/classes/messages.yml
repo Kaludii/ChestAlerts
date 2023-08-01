@@ -1,0 +1,10 @@
+# Messages file for the ChestAlerts plugin by Kaludi.
+#
+# You can use color codes using '&'. For example: '&c' is red.
+# Don't forget to save and do '/ChestAlerts reload' or restart your server after making changes.
+#
+help_message: '&d&lChestAlerts &2&l► &7This is the help message for ChestAlerts. Available commands are: /ChestAlerts help, /ChestAlerts reload, /ChestAlerts toggle'
+no_permission_message: '&d&lChestAlerts &2&l► &cYou do not have permission to use this command.'
+reload_message: '&d&lChestAlerts &2&l► &7The ChestAlerts plugin has been reloaded.'
+toggle_on_message: '&d&lChestAlerts &2&l► &7ChestAlerts have been enabled.'
+toggle_off_message: '&d&lChestAlerts &2&l► &7ChestAlerts have been disabled.'
