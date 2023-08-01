@@ -1,0 +1,16 @@
+# Configuration file for the ChestAlerts plugin by Kaludi.
+#
+# 'discord-webhook-url': The URL for the Discord webhook to post to.
+# 'discord-webhook-name': The name for the Discord webhook.
+# 'discord-webhook-image': The URL for the image to use for the Discord webhook posts.
+# 'announce-in-terminal': Whether to announce to the console when a chest is opened.
+# 'bStatsEnabled': Whether to enable bStats metrics for this plugin.
+#
+# After making changes to this file, save and do '/ChestAlerts reload' or restart your server.
+
+settings:
+  discord-webhook-url: ''
+  discord-webhook-name: ChestAlerts
+  discord-webhook-image: 'https://media.discordapp.net/attachments/705961866962403328/1135798490417610792/chest.png'
+  announce-in-terminal: true
+  bStatsEnabled: true
