@@ -17,8 +17,6 @@
 
 -   **Instant Alerts**: Get alerted instantly when a player opens a chest, shulker box, barrel, or ender chest.
 -   **Discord Integration**: Send alerts directly to a Discord channel using a webhook.
--   **Configurable**: From setting up the Discord webhook to whether alerts are announced in the terminal, everything is easily configurable.
--   **Messages Configuration**: All plugin messages are fully customizable.
 -   **Permission Support**: Comes with permission nodes for using the toggle alert command and reloading the plugin.
 
 ## Plugin.yml
