@@ -147,14 +147,14 @@ public final class ChestAlerts extends JavaPlugin implements Listener {
             Material blockType = block.getType();
             String blockTypeName = "";
             if (blockType.equals(Material.CHEST)) {
-                blockTypeName = "chest";
+                blockTypeName = "Chest";
             } else if (blockType.equals(Material.ENDER_CHEST)) {
-                blockTypeName = "ender chest";
+                blockTypeName = "Ender Chest";
             } else if (blockType.equals(Material.BARREL)) {
-                blockTypeName = "barrel";
+                blockTypeName = "Barrel";
             } else if (blockType.equals(Material.SHULKER_BOX) || blockType.name().endsWith("_SHULKER_BOX")) {
                 // Matches any color of shulker box
-                blockTypeName = "shulker box";
+                blockTypeName = "Shulker Box";
             } else {
                 return;
             }
@@ -172,11 +172,10 @@ public final class ChestAlerts extends JavaPlugin implements Listener {
             }
 
             if (getConfig().getBoolean("settings.announce-in-terminal")) {
-                System.out.println(playerName + " opened a " + blockTypeName + " at " + blockLocation);
+                System.out.println(playerName + " Opened " + blockTypeName + " At " + blockLocation);
             }
         }
     }
-
 
     private void sendWebhook(String playerName, String blockLocation, String blockTypeName) {
         String webhookUrl = getConfig().getString("settings.discord-webhook-url");
@@ -188,7 +187,7 @@ public final class ChestAlerts extends JavaPlugin implements Listener {
         }
 
         String playerAvatarUrl = "https://cravatar.eu/avatar/" + playerName + "/64.png";
-        String message = "Opened a " + blockTypeName + " at " + blockLocation;
+        String message = "Opened " + blockTypeName + " At " + blockLocation;
 
         try {
             URL url = new URL(webhookUrl);
