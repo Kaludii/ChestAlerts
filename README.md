@@ -7,11 +7,11 @@
 
 **Console Alerts (Can Be Turned Off In Config):**
 
-![console-alerts](https://github.com/Kaludii/ChestAlerts/blob/main/images/console-alert.png?raw=true)
+![console-alerts](https://github.com/Kaludii/ChestAlerts/blob/main/images/console-alerts.png?raw=true)
 
 **Discord Alerts (Webhook Configurable In Config):**
 
-![webhook-alerts](https://github.com/Kaludii/ChestAlerts/blob/main/images/webhook-alert.png?raw=true)
+![webhook-alerts](https://github.com/Kaludii/ChestAlerts/blob/main/images/webhook-alerts.png?raw=true)
 
 ## Features
 
@@ -87,11 +87,11 @@
     # You can use color codes using '&'. For example: '&c' is red.
     # Don't forget to save and do '/ChestAlerts reload' or restart your server after making changes.
     #
-    help_message: '&d&lChestAlerts &2&l► &7This is the help message for ChestAlerts. Available commands are: /ChestAlerts help, /ChestAlerts reload, /ChestAlerts toggle'
+    help_message: '&d&lChestAlerts &2&l► &bThis is the help message for ChestAlerts. Available commands are: /ChestAlerts help, /ChestAlerts reload, /ChestAlerts toggle'
     no_permission_message: '&d&lChestAlerts &2&l► &cYou do not have permission to use this command.'
-    reload_message: '&d&lChestAlerts &2&l► &7The ChestAlerts plugin has been reloaded.'
-    toggle_on_message: '&d&lChestAlerts &2&l► &7ChestAlerts have been enabled.'
-    toggle_off_message: '&d&lChestAlerts &2&l► &7ChestAlerts have been disabled.'
+    reload_message: '&d&lChestAlerts &2&l► &bThe ChestAlerts plugin has been reloaded.'
+    toggle_on_message: '&d&lChestAlerts &2&l► &bChestAlerts have been enabled.'
+    toggle_off_message: '&d&lChestAlerts &2&l► &bChestAlerts have been disabled.'
 
 **This plugin was only tested on 1.19 and 1.20, no other previous versions.**
 
