@@ -11,7 +11,7 @@ commands:
     description: Main command for the ChestAlerts plugin.
     usage: /<command>
     permission: chestalerts.use
-    permission-message: '&d&lYou do not have permission to use this command.'
+    permission-message: '&d&lChestAlerts &2&l► You do not have permission to use this command.'
 permissions:
   chestalerts.*:
     description: Gives access to all ChestAlerts commands.
